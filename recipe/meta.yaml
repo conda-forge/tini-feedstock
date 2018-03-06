@@ -1,6 +1,6 @@
 {% set name = "tini" %}
-{% set version = "0.16.1" %}
-{% set sha256 = "c2b7fe2fb92e71911d06b7571b53d4e7e8985b34efe2a599670b070b000c8dbe" %}
+{% set version = "0.17.0" %}
+{% set sha256 = "5244691718f6856db74dcf6dbb3576a901e737f41412e7895747f0ccb4ccaff0" %}
 
 package:
   name: {{ name|lower }}
