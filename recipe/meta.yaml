@@ -1,6 +1,6 @@
 {% set name = "tini" %}
-{% set version = "0.17.0" %}
-{% set sha256 = "5244691718f6856db74dcf6dbb3576a901e737f41412e7895747f0ccb4ccaff0" %}
+{% set version = "0.18.0" %}
+{% set sha256 = "1097675352d6317b547e73f9dc7c6839fd0bb0d96dafc2e5c95506bb324049a2" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   number: 0
-  skip: true  # [not (linux and py27)]
+  skip: true  # [not linux]
 
 requirements:
   build:
