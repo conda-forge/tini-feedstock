@@ -2,6 +2,7 @@
 
 mkdir build && cd build
 cmake ${CMAKE_ARGS} .. \
+      -DCMAKE_POLICY_VERSION_MINIMUM=3.5 \
       -DCMAKE_INSTALL_PREFIX="${PREFIX}" \
       -DCMAKE_PREFIX_PATH="${PREFIX}"
 make
